@@ -15,12 +15,14 @@ A simple and interactive memory game built with React.js, Node.js, MongoDB, and 
 ### Navigate to the Frontend Folder
    - Open your terminal or command prompt.
    - Change directory to the frontend folder using the command:
+     
      ```
      cd frontend
      ```
 
 ### Install Dependencies
    - Run the command to install all necessary dependencies:
+     
      ```
      npm install
      ```
@@ -28,12 +30,14 @@ A simple and interactive memory game built with React.js, Node.js, MongoDB, and 
 ### Configure Environment Variables
    - Create a `.env` file in the frontend directory.
    - Add the base URL of the deployed Railway app by including the following line in the `.env` file:
+     
      ```
      REACT_APP_BASE_URL=<your-deployed-url>
      ```
 
 ### Start the Frontend Application
    - Launch the frontend application by running:
+     
      ```
      npm start
      ```
@@ -43,12 +47,14 @@ A simple and interactive memory game built with React.js, Node.js, MongoDB, and 
 ### Navigate to the Backend Folder
    - Open your terminal or command prompt.
    - Change directory to the backend folder using the command:
+     
      ```
      cd ../backend
      ```
 
 ### Install Dependencies
    - Run the command to install all necessary dependencies:
+     
      ```
      npm install
      ```
@@ -56,6 +62,7 @@ A simple and interactive memory game built with React.js, Node.js, MongoDB, and 
 ### Configure Environment Variables
    - Create a `.env` file in the backend directory.
    - Add the JWT token and MongoDB URL by including the following lines in the `.env` file:
+     
      ```
      JWT_SECRET=<your-jwt-token>
      MONGODB_URL=<your-mongodb-url>
@@ -63,6 +70,7 @@ A simple and interactive memory game built with React.js, Node.js, MongoDB, and 
 
 ### Start the Backend Server
    - Launch the backend server by running:
+     
      ```
      node server.js
      ```
