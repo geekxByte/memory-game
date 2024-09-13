@@ -1,7 +1,7 @@
 import axios from 'axios';
 // Using the baseurl to make requests from backend
 const api = axios.create({
-  baseURL: 'https://memory-game-backend.up.railway.app/api',
+  baseURL: process.env.REACT_APP_BASE_URL + '/api',
 });
 
 api.interceptors.request.use((config) => {
