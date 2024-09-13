@@ -1,0 +1,8 @@
+/backend/node_modules
+/node_modules
+/.env
+/backend/.env
+backend/.env
+backend/node_modules
+.env
+node_modules/

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import './Sign_In_Up.css'; // Import CSS for styling
+import './Sign_In_Up.css';
 
 function Register() {
   // Managing state
