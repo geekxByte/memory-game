@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import './Sign_In_Up.css';
+import api from '../api';
 
 function Register() {
   // Managing state
@@ -12,7 +12,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/register', { username, password });
+      const response = await api.post('/register', { username, password });
       if (response.status === 201) {
         alert('Registration successful. Please log in.');
         navigate('/login');

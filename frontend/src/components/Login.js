@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import api from '../api';
 import { useAuth } from '../contexts/AuthContext';
 import './Sign_In_Up.css';
 
@@ -15,7 +15,7 @@ function Login() {
     e.preventDefault();
     // Here we are sending username and password to the server and checking if the credentials are valid or not
     try {
-      const response = await axios.post('/api/login', { username, password });
+      const response = await api.post('/login', { username, password });
       
       if (response.status === 200 && response.data.token) {
         localStorage.setItem('token', response.data.token);
@@ -38,11 +38,13 @@ function Login() {
         }
       }
   };
-// Switching to register form
+
+  // Switching to register form
   const handleSwitchToRegister = () => {
     navigate('/register');
   };
-// Displaying the data shown on login form
+
+  // Displaying the data shown on login form
   return (
     <div className="auth-container">
       <div className="auth-form">
