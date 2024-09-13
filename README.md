@@ -72,7 +72,7 @@ A simple and interactive memory game built with React.js, Node.js, MongoDB, and 
 - **Frontend:** Open your browser and navigate to `http://localhost:3000` to play the game.
 - **Backend:** Ensure the backend server is running to handle requests from the frontend.
 
-## Pictures
+## Images
 
 ![Screenshot 2024-09-13 225423](https://github.com/user-attachments/assets/af173006-0bb7-4277-8c6d-d5846d144ec0)
 ![Screenshot 2024-09-13 225612](https://github.com/user-attachments/assets/915fdf9b-cb09-4bbf-b30b-69c1b75a44b7)
